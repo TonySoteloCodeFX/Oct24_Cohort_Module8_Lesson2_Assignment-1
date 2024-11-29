@@ -1,0 +1,77 @@
+/* FONTS  */
+/* font-family: "Protest Revolution", sans-serif;
+font-family: "Roboto", serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #44A08D;
+    background: -webkit-linear-gradient(to top, #093637, #44A08D);
+    background: linear-gradient(to top, #093637, #44A08D);
+}
+
+.header_nav {
+    display: flex;
+    justify-content: center;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 25px;
+    background-color: #2C6C5F;
+    box-shadow: 2px 2px 7px;
+}
+
+.header_nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: #64F4D7;
+    transition-duration: 0.5s;
+}
+
+.header_nav a:hover {
+    font-size: 30px;
+    color: #F5F0F6;
+}
+
+.gamer_gif {
+    mix-blend-mode:overlay;
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0%;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: #2C6C5F;
+    color: #64F4D7;
+    box-shadow: 2px -2px 7px;
+    font-family: "Roboto", serif;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div{
+    margin: 10px;
+}
+
+footer a {
+    background-color: #64F4D7;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+footer a:hover {
+    background-color: #F5F0F6;
+    scale: 1.2;
+}
