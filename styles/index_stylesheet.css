@@ -2,6 +2,7 @@ main {
     display: grid;
     grid-template-rows: 300px 1fr;
     color: aliceblue;
+    margin-bottom: 20px;
 }
 
 .container .intro {
@@ -14,10 +15,11 @@ main {
     align-items: center;
     justify-self: center;
     text-align: center;
-    width: 70%;
+    width: 40%;
 }
 
 .intro * {
+    font-family: "Roboto", serif;
     margin-top: 20px;
 }
 
@@ -31,10 +33,15 @@ main {
 }
 
 .art * {
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 25px;
+}
+
+.league video, .burst1 video {
     transition: 0.5s;
 }
 
-.art *:hover {
+.league video:hover, .burst1 video:hover {
     box-shadow: 2px 2px 10px;
     scale: 1.1;
     color: aquamarine;
@@ -45,3 +52,4 @@ main {
     flex-direction:column;
     align-items: center;
 }
+

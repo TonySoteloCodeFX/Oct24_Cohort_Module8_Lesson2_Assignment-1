@@ -1,0 +1,52 @@
+/* FONTS  */
+/* font-family: "Protest Revolution", sans-serif;
+font-family: "Roboto", serif; */
+
+.intro {
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.artist1, .artist2, .artist3, .artist4 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    font-family: "Roboto", serif;
+    margin-top: 10px;
+}
+
+.artist1 *, .artist2 *, .artist3 *, .artist4 * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.artist1 div img, .artist2 div img, .artist3 div img, .artist4 div img {
+    border: 10px solid #64F4D7;
+    transition: 0.5s;
+}
+
+.artist1 div img:hover, .artist2 div img:hover, .artist3 div img:hover, .artist4 div img:hover {
+    box-shadow: 1px 5px 10px;
+    border: 5px solid white;
+    color: #64F4D7;
+    scale: 1.03;
+}
