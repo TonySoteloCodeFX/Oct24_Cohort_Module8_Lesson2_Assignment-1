@@ -1,0 +1,40 @@
+/* FONTS  */
+/* font-family: "Protest Revolution", sans-serif;
+font-family: "Roboto", serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Roboto", serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    background-color: #2C6C5F;
+    color: #64F4D7;
+    width: 30%;
+    height: 70vh;
+    margin-top: 6%;
+    margin-bottom: 7%;
+    border: 2px solid #64F4D7;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px;
+    transition-duration: 0.5s;
+}
+
+form:hover {
+    scale: 1.05;
+    box-shadow: inset 5px 5px 7px;
+}
