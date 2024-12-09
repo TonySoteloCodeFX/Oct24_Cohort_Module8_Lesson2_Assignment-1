@@ -22,6 +22,7 @@
                 <a href="/pages/vfx_for_games.html">VFX for Games</a>
                 <a href="/pages/comment.html">Comment</a>
                 <a href="/pages/registration_form.html">Registration</a>
+                <a href="/pages/shop.html">Shop</a>
                 <span>
                     <img src="/art//video-gamev2.gif" alt="" class="gamer_gif">
                 </span>
@@ -31,14 +32,15 @@
 
     <main>
         <form action="">
+            <h2>Registration Form</h2>
             <section class="personal">
                 <div>
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="ex: John Doe" required>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
                 </div>
                 <div>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="ex: JohnDoe@gmail.com" required>
+                    <input type="email" id="email" name="email" placeholder="JohnDoe@gmail.com" required>
                 </div>
                 <div>
                     <label for="birthdate">Date Of Birth:</label>
@@ -46,7 +48,11 @@
                 </div>
                 <div>
                     <label for="phone_number">Phone Number:</label>
-                    <input type="tel" id="phone_number" name="phone_number" placeholder="ex: xxx-xxx-xxxx" required>
+                    <input type="tel" id="phone_number" name="phone_number" placeholder="xxx-xxx-xxxx" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Password1" required>
                 </div>
             </section>
             <section>
@@ -54,10 +60,13 @@
                 <div>
                     <input type="radio" id="pref_email" name="method_contact">
                     <label for="pref_email">Email</label>
-                    <input type="radio" id="pref_phone" name="pref_phone">
+                    <input type="radio" id="pref_phone" name="method_contact">
                     <label for="pref_phone">Phone</label>
                 </div>
+            </section>
+            <section>
                 <div>
+                    <button type="submit">Submit</button>
                 </div>
             </section>
         </form>
